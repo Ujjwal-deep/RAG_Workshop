@@ -13,7 +13,7 @@
 Model Configuration Evaluation: 	
 	
 -	Two parameter configurations were tested for the RAG model. 
--	The first setup — with chunk_size=400, chunk_overlap=50, k=5, fetch_k=15, and lambda_mult=0.8 — consistently produced more accurate and contextually relevant responses compared to the second configuration (chunk_size=1200, chunk_overlap=200, k=7, fetch_k=6, lambda_mult=0.5).
+-	The second setup — with chunk_size=1200, chunk_overlap=200, k=7, fetch_k=6, and lambda_mult=0.5  — consistently produced more accurate and contextually relevant responses compared to the first configuration (chunk_size=400, chunk_overlap=50, k=5, fetch_k=15, lambda_mult=0.8).
 -	Hence, the first set of parameters was adopted as the final configuration for this project.
 
 ## How to run:
